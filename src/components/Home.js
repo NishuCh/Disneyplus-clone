@@ -8,8 +8,8 @@ import Viewers from "./Viewers";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import db from "../firebase";
-import { setMovies } from "../features/movie/movieSlice";
-import { selectUserName } from "../features/user/userSlice";
+import { setMovies } from "../app/movieSlice";
+import { selectUserName } from "../app/userSlice";
 
 const Home = (props) => {
   const dispatch = useDispatch();
